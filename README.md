@@ -61,7 +61,7 @@ breast_cancer_project/
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Clone the repository
 ```bash
@@ -103,13 +103,13 @@ Then open **http://localhost:5000** in your browser.
 
 ### Step 3 — Data Exploration (EDA)
 Investigated **6+ variables** using both univariate and bivariate analysis:
-- 📊 Class distribution (bar + pie)
-- 📈 Histograms by diagnosis (6 features)
-- 📦 Boxplots by diagnosis (6 features)
-- 🔥 Correlation heatmap
-- ⚡ Scatter plot (radius vs area)
-- 🎻 Violin plot (age by diagnosis)
-- 🏥 Hospital malignancy stacked bar
+-  Class distribution (bar + pie)
+-  Histograms by diagnosis (6 features)
+-  Boxplots by diagnosis (6 features)
+-  Correlation heatmap
+-  Scatter plot (radius vs area)
+-  Violin plot (age by diagnosis)
+-  Hospital malignancy stacked bar
 
 ### Step 4 — Feature Engineering & Selection
 **New features created:**
@@ -156,8 +156,8 @@ Flask web application with:
 
 ---
 
-## ⚠️ Disclaimer
-This project is for **educational and research purposes only**. It should NOT be used for actual medical diagnosis. Always consult a qualified medical professional.
+## Deployment link
+(https://breast-cancer-ml-project-ilpzuaukikss8getgys5me.streamlit.app/)
 
 ---
 
