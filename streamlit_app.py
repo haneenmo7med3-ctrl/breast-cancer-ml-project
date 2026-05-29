@@ -36,12 +36,12 @@ field_config = {
     "smoothness_mean":        ("Smoothness Mean",         col2, 0.0,  0.2,   0.096),
     "compactness_mean":       ("Compactness Mean",        col1, 0.0,  0.4,   0.104),
     "concavity_mean":         ("Concavity Mean",          col2, 0.0,  0.5,   0.089),
+    "area_se":                ("Area SE",                 col1, 0.0, 500.0,  40.0),
+    "smoothness_se":          ("Smoothness SE",           col2, 0.0,  0.03,  0.007),
     "concavity_se":           ("Concavity SE",            col1, 0.0,  0.2,   0.030),
-    "fractal_dimension_mean": ("Fractal Dimension Mean",  col2, 0.0,  0.1,   0.063),
-    "age":                    ("Patient Age",             col1, 18,   100,   55),
-    "age_group_encoded":      ("Age Group (0=<40, 1=40-59, 2=60+)", col2, 0, 2, 1),
-    "compactness_ratio":      ("Compactness Ratio\n(compactness / fractal_dim)", col1, 0.0, 10.0, 1.6),
-    "area_radius_ratio":      ("Area / Radius Ratio",    col2, 0.0, 200.0, 46.0),
+    "age":                    ("Patient Age",             col2, 18,   100,   55),
+    "age_group_encoded":      ("Age Group (0=<40, 1=40-59, 2=60+)", col1, 0, 2, 1),
+    "compactness_ratio":      ("Compactness Ratio\n(compactness / fractal_dim)", col2, 0.0, 10.0, 1.6),
 }
 
 for feat, (label, col, mn, mx, default) in field_config.items():
